@@ -1,30 +1,123 @@
-# profile
-# 💫 About Me:
-I'm currenctly working as Fullstack Developer
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile</title>
+    <style>
+        /* Global Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
 
+        .container {
+            text-align: center;
+            max-width: 900px;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #2d2d2d;
+        }
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/naufalfadllur___) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/MuhammadNaufalFadllurRohman) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@naufalfadllur) 
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
 
-# 💻 Tech Stack:
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=fadllurnaufal&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=fadllurnaufal&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=fadllurnaufal&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
+        .badge-container img {
+            margin: 5px;
+            border-radius: 10px;
+        }
 
-# 🎉 Fun Animation:
-![Coding Animation](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+        .socials {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+        .socials img {
+            width: 30px;
+            height: 30px;
+        }
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=fadllurnaufal&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
+        .github-stats {
+            margin-top: 20px;
+        }
 
----
-[![](https://visitcount.itsvg.in/api?id=fadllurnaufal&icon=0&color=0)](https://visitcount.itsvg.in)
+        .quote {
+            margin-top: 20px;
+            font-style: italic;
+            color: #A0A0A0;
+        }
 
-Proudly created with GPRM ( https://gprm.itsvg.in )
+        .github-trophies {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>💫 About Me:</h1>
+        <p>I'm currently working as a Fullstack Developer.</p>
+
+        <h2>🌐 Socials:</h2>
+        <div class="socials">
+            <a href="https://instagram.com/naufalfadllur___"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"></a>
+            <a href="https://linkedin.com/in/MuhammadNaufalFadllurRohman"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+            <a href="https://medium.com/@naufalfadllur"><img src="https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white" alt="Medium"></a>
+        </div>
+
+        <h2>💻 Tech Stack:</h2>
+        <div class="badge-container">
+            <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+            <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt=".NET">
+            <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+            <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+            <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
+            <img src="https://img.shields.io/badge/npm-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" alt="NPM">
+        </div>
+
+        <h2>📊 GitHub Stats:</h2>
+        <div class="github-stats">
+            <img src="https://github-readme-stats.vercel.app/api?username=fadllurnaufal&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats"><br>
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=fadllurnaufal&theme=dark&hide_border=false" alt="GitHub Streak"><br>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadllurnaufal&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages">
+        </div>
+
+        <h2>🏆 GitHub Trophies:</h2>
+        <div class="github-trophies">
+            <img src="https://github-profile-trophy.vercel.app/?username=fadllurnaufal&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies">
+        </div>
+
+        <h3>✍️ Random Dev Quote:</h3>
+        <div class="quote">
+            <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote">
+        </div>
+
+        <h3>🔝 Top Contributed Repo:</h3>
+        <div class="github-trophies">
+            <img src="https://github-contributor-stats.vercel.app/api?username=fadllurnaufal&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="Top Contributed Repo">
+        </div>
+
+    </div>
+
+</body>
+</html>
